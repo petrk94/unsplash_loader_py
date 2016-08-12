@@ -1,10 +1,10 @@
 ## To use the Python script it's necessary to have the following packets installed:
 
-	-	Python
-	
-	-	Requests
+-	Python
 
-	-	feedparser
+-	Requests
+
+-	feedparser
 
 
 
