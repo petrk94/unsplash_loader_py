@@ -23,3 +23,10 @@
 	
 	open the cmd.exe and use the following command
 	- pip install feedparser
+
+	
+### Usage
+
+Unsplash_loader.py - download the latest available RSS feed photo
+
+Unsplash_random.py - download a random photo from Unsplash
