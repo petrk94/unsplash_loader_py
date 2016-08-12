@@ -17,3 +17,10 @@
 - Requests Libary for Python3
 	
 	- sudo apt-get python3-requests
+
+	
+### Usage
+
+Unsplash_loader.py - download the latest available RSS feed photo
+
+Unsplash_random.py - download a random photo from Unsplash 
