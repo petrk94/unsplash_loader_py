@@ -1,4 +1,4 @@
-To use the Python script it's necessary to have the following packets installed:
+## To use the Python script it's necessary to have the following packets installed:
 
 	-	Python
 	
@@ -8,12 +8,12 @@ To use the Python script it's necessary to have the following packets installed:
 
 
 
- Installation example:
+### Installation example:
 	
-	- Python 3 and feedparser
+- Python 3 and feedparser
 	
-	sudo apt-get python3-feedparser
+	- sudo apt-get python3-feedparser
 	
-	- Requests Libary for Python3
+- Requests Libary for Python3
 	
-	sudo apt-get python3-requests
+	- sudo apt-get python3-requests
