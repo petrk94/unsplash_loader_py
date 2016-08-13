@@ -30,3 +30,7 @@
 Unsplash_loader.py - download the latest available RSS feed photo
 
 Unsplash_random.py - download a random photo from Unsplash
+
+Unsplash_random_wallpaper.py - download a random photo from Unsplash and apply it as windows desktop wallpaper
+
+Unsplash_wallpaper_changer.py - download the latest available RSS feed photo and apply it as windows desktop wallpaper
