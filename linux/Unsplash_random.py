@@ -1,7 +1,6 @@
 #import libaries
 import requests
 
-
 with open("Unsplash_random.jpg", "wb") as f:
     response = requests.get("https://source.unsplash.com/random", stream=True)
 
