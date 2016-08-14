@@ -46,4 +46,4 @@ with open("Unsplash.jpg", "wb") as f:
     # Write the content of 'response' (photo_url)
     # in pieces into the file
     for block in response.iter_content(1024):
-        f.write(block)
+		f.write(block)
