@@ -10,16 +10,19 @@ d = feedparser.parse('https://unsplash.com/rss')
 #save the content of summary entries in variable
 e = (d.entries[0]["summary"])
 
-# create file to save the content
+'''
+ONLY FOR DEBUG
+create file to save the content
 file = open("unsplash.dat", "w")
 file.write(d.entries[0]["summary"])
 file.close()
 file = open("unsplash.dat", "r")
+'''
 
-xml = file.read()
 
 #Split the necessary tags to get the img tag
-xml_splitted = xml.split(" ")
+# 'e.split' is splitting the content of 'e = (d.entries[0]["summary"])'
+xml_splitted = e.split(" ")
 photo_tag = (xml_splitted[4])
 photo_img = photo_tag.split("\"")
 #print(photo_img)
