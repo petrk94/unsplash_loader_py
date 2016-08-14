@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #import libaries
 import feedparser
 import requests
