@@ -24,3 +24,9 @@
 Unsplash_loader.py - download the latest available RSS feed photo
 
 Unsplash_random.py - download a random photo from Unsplash 
+
+### Usage in Shell/Terminal
+Please use "Python" before the script name, otherwise you will get syntax errors
+Example:
+
+python Unsplash_random.py
