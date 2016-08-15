@@ -6,7 +6,7 @@ which python
 if [ $? -eq 1 ]
   then
     # Install Python
-    sudo apt install python
+    sudo apt-get install python
   else
     echo
     echo It seems that Python is already installed
@@ -19,7 +19,7 @@ which pip
 if [ $? -eq 1 ]
   then
     # Install Pip
-    sudo apt install pip
+    sudo apt-get install python-pip
   else
     echo
     echo It seems that Pip is already installed
