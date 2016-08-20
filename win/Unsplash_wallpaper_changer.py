@@ -48,8 +48,7 @@ with open("TranscodedWallpaper", "wb") as f:
     for block in response.iter_content(1024):
         f.write(block)
 
-
+# Move the TranscodedWallpaper file into windows themes folder an apply it with RUNDLL32
 subprocess.call(["move", "TranscodedWallpaper", "C:\\Users\%username%\AppData\Roaming\Microsoft\Windows\Themes"], shell=True)
-
 subprocess.call(["cd", "C:\\Users\%username%\AppData\Roaming\Microsoft\Windows\Themes"], shell=True)
 subprocess.call(["RUNDLL32.EXE", "USER32.DLL","UpdatePerUserSystemParameters", "1", "True"], shell=True)
